@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CB23F21EDE9F6800E76A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB23F11EDE9F6800E76A28 /* main.m */; };
+		F0CB23F51EDE9F6800E76A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB23F41EDE9F6800E76A28 /* AppDelegate.m */; };
+		F0CB23F81EDE9F6800E76A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB23F71EDE9F6800E76A28 /* ViewController.m */; };
+		F0CB23FB1EDE9F6800E76A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CB23F91EDE9F6800E76A28 /* Main.storyboard */; };
+		F0CB23FD1EDE9F6800E76A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CB23FC1EDE9F6800E76A28 /* Assets.xcassets */; };
+		F0CB24001EDE9F6800E76A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CB23FE1EDE9F6800E76A28 /* LaunchScreen.storyboard */; };
+		F0CB24091EDE9F8600E76A28 /* CYPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB24081EDE9F8600E76A28 /* CYPickView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0CB23ED1EDE9F6800E76A28 /* CYPickViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPickViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CB23F11EDE9F6800E76A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0CB23F31EDE9F6800E76A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0CB23F41EDE9F6800E76A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0CB23F61EDE9F6800E76A28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0CB23F71EDE9F6800E76A28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0CB23FA1EDE9F6800E76A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0CB23FC1EDE9F6800E76A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0CB23FF1EDE9F6800E76A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0CB24011EDE9F6800E76A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CB24071EDE9F8600E76A28 /* CYPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPickView.h; sourceTree = "<group>"; };
+		F0CB24081EDE9F8600E76A28 /* CYPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPickView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CB23EA1EDE9F6800E76A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CB23E41EDE9F6800E76A28 = {
+			isa = PBXGroup;
+			children = (
+				F0CB23EF1EDE9F6800E76A28 /* CYPickViewDemo */,
+				F0CB23EE1EDE9F6800E76A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CB23EE1EDE9F6800E76A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB23ED1EDE9F6800E76A28 /* CYPickViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CB23EF1EDE9F6800E76A28 /* CYPickViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB24071EDE9F8600E76A28 /* CYPickView.h */,
+				F0CB24081EDE9F8600E76A28 /* CYPickView.m */,
+				F0CB23F31EDE9F6800E76A28 /* AppDelegate.h */,
+				F0CB23F41EDE9F6800E76A28 /* AppDelegate.m */,
+				F0CB23F61EDE9F6800E76A28 /* ViewController.h */,
+				F0CB23F71EDE9F6800E76A28 /* ViewController.m */,
+				F0CB23F91EDE9F6800E76A28 /* Main.storyboard */,
+				F0CB23FC1EDE9F6800E76A28 /* Assets.xcassets */,
+				F0CB23FE1EDE9F6800E76A28 /* LaunchScreen.storyboard */,
+				F0CB24011EDE9F6800E76A28 /* Info.plist */,
+				F0CB23F01EDE9F6800E76A28 /* Supporting Files */,
+			);
+			path = CYPickViewDemo;
+			sourceTree = "<group>";
+		};
+		F0CB23F01EDE9F6800E76A28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB23F11EDE9F6800E76A28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CB23EC1EDE9F6800E76A28 /* CYPickViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CB24041EDE9F6800E76A28 /* Build configuration list for PBXNativeTarget "CYPickViewDemo" */;
+			buildPhases = (
+				F0CB23E91EDE9F6800E76A28 /* Sources */,
+				F0CB23EA1EDE9F6800E76A28 /* Frameworks */,
+				F0CB23EB1EDE9F6800E76A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYPickViewDemo;
+			productName = CYPickViewDemo;
+			productReference = F0CB23ED1EDE9F6800E76A28 /* CYPickViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CB23E51EDE9F6800E76A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YULING;
+				TargetAttributes = {
+					F0CB23EC1EDE9F6800E76A28 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0CB23E81EDE9F6800E76A28 /* Build configuration list for PBXProject "CYPickViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0CB23E41EDE9F6800E76A28;
+			productRefGroup = F0CB23EE1EDE9F6800E76A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CB23EC1EDE9F6800E76A28 /* CYPickViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CB23EB1EDE9F6800E76A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CB24001EDE9F6800E76A28 /* LaunchScreen.storyboard in Resources */,
+				F0CB23FD1EDE9F6800E76A28 /* Assets.xcassets in Resources */,
+				F0CB23FB1EDE9F6800E76A28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CB23E91EDE9F6800E76A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CB23F81EDE9F6800E76A28 /* ViewController.m in Sources */,
+				F0CB23F51EDE9F6800E76A28 /* AppDelegate.m in Sources */,
+				F0CB23F21EDE9F6800E76A28 /* main.m in Sources */,
+				F0CB24091EDE9F8600E76A28 /* CYPickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0CB23F91EDE9F6800E76A28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CB23FA1EDE9F6800E76A28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CB23FE1EDE9F6800E76A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CB23FF1EDE9F6800E76A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CB24021EDE9F6800E76A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0CB24031EDE9F6800E76A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CB24051EDE9F6800E76A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYPickViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YULING.CYPickViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0CB24061EDE9F6800E76A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYPickViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YULING.CYPickViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CB23E81EDE9F6800E76A28 /* Build configuration list for PBXProject "CYPickViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CB24021EDE9F6800E76A28 /* Debug */,
+				F0CB24031EDE9F6800E76A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CB24041EDE9F6800E76A28 /* Build configuration list for PBXNativeTarget "CYPickViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CB24051EDE9F6800E76A28 /* Debug */,
+				F0CB24061EDE9F6800E76A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CB23E51EDE9F6800E76A28 /* Project object */;
+}
